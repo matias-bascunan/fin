@@ -1,0 +1,36 @@
+.menu-principal ul{ display: flex;
+    list-style-type: none;
+}
+.nav-item {margin-right: 3rem;
+background-color:#F8F9FA; }
+.nav-item:hover {background-color: #D8D7DC;
+font-weight: bold;
+border-radius: 10px;}
+header {border-bottom: 2px solid black;
+display: flex; 
+justify-content: space-around;
+background-color:#F8F9FA;}
+.logo {width:20px;
+}
+
+.menu-hamburguesa {
+   align-content: center;
+    position: sticky;
+    width: 5%;
+    height: 60px; 
+  }
+
+
+  
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  .menu {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+  }
+  
